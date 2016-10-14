@@ -1,0 +1,1 @@
+If a peg leg or something is used instead of a normal foot, the last bone controlling foot movement will need to be deleted on frame zero for that leg. This will stop the peg from bending.

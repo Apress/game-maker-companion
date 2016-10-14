@@ -1,0 +1,2085 @@
+application/x-vnd.lm_mohodoc
+version 19
+### Created in Moho version 6.0, � 1999-2009 Smith Micro Software, Inc.
+### Created: Wed Jul 21 22:40:30 2010
+
+### static values
+dimensions 768 768
+frame_range 1 55
+fps 35
+back_color 0 0 0 255
+noise_grain 0
+allow_3d true
+depth_sort false
+distance_sort false
+depth_of_field false 2 1 0.05
+stereo_separation -1
+extra_swf_frame false
+soundtrack ""
+
+### styles
+
+### animated values
+camera_track
+[
+	keys 3
+		0 1 0.1 0.5 0 0 1.7321
+		56 1 0.1 0.5 0 0 1.7321
+		68 1 0.1 0.5 0 0 1.7321
+]
+camera_zoom
+[
+	keys 3
+		0 1 0.1 0.5 1
+		56 1 0.1 0.5 1
+		68 1 0.1 0.5 1
+]
+camera_roll
+[
+	keys 3
+		0 1 0.1 0.5 0
+		56 1 0.1 0.5 0
+		68 1 0.1 0.5 0
+]
+camera_pan_tilt
+[
+	keys 3
+		0 1 0.1 0.5 0 0
+		56 1 0.1 0.5 0 0
+		68 1 0.1 0.5 0 0
+]
+
+### layers
+layer_type 1
+{
+	### generic layer values
+	name "Layer 1"
+	quality_flags 2044
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -1
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+	scale
+	[
+		keys 1
+			0 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+
+	### mesh layer values
+	noisy_shapes false
+	noisy_lines false
+	animated_noise false
+	extra_sketchy true
+	noise_amp 0.011236
+	noise_scale 0.089888
+	extra_lines 5
+	gap_filling false
+	exclude_lines_from_mask false
+	fill_texture ""
+	line_texture ""
+	mesh
+	[
+		points 0
+		curves 0
+		shapes 0
+		groups 0
+	]
+}
+layer_type 4
+{
+	### generic layer values
+	name "Skeleton"
+	quality_flags 2046
+	animated_layer_effects false
+	origin -0.121113 0.159137
+	parent_bone -2
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 5
+			0 1 0.1 0.5 0.140829 -0.160545 0
+			1 1 0.1 0.5 0.140829 -0.160545 0
+			36 1 0.1 0.5 0.140829 -0.160545 0
+			56 1 0.1 0.5 0.140829 -0.160545 0
+			68 1 0.1 0.5 0.140829 -0.160545 0
+	]
+	scale
+	[
+		keys 5
+			0 1 0.1 0.5 1 1 1
+			1 1 0.1 0.5 1 1 1
+			36 1 0.1 0.5 1 1 1
+			56 1 0.1 0.5 1 1 1
+			68 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 5
+			0 1 0.1 0.5 0
+			1 1 0.1 0.5 0
+			36 1 0.1 0.5 0
+			56 1 0.1 0.5 0
+			68 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 5
+			0 1 0.1 0.5 0
+			1 1 0.1 0.5 0
+			36 1 0.1 0.5 0
+			56 1 0.1 0.5 0
+			68 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 5
+			0 1 0.1 0.5 0
+			1 1 0.1 0.5 0
+			36 1 0.1 0.5 0
+			56 1 0.1 0.5 0
+			68 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 5
+			0 1 0.1 0.5 false
+			1 1 0.1 0.5 false
+			36 1 0.1 0.5 false
+			56 1 0.1 0.5 false
+			68 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 5
+			0 1 0.1 0.5 false
+			1 1 0.1 0.5 false
+			36 1 0.1 0.5 false
+			56 1 0.1 0.5 false
+			68 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 5
+			0 1 0.1 0.5 0 0 0
+			1 1 0.1 0.5 0 0 0
+			36 1 0.1 0.5 0 0 0
+			56 1 0.1 0.5 0 0 0
+			68 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+	visibility
+	[
+		keys 5
+			0 1 0.1 0.5 true
+			1 1 0.1 0.5 true
+			36 1 0.1 0.5 true
+			56 1 0.1 0.5 true
+			68 1 0.1 0.5 true
+	]
+
+	### bone layer values
+	expanded true
+	group_mask 0
+	depth_sort false
+	distance_sort false
+	animated_layer_order true
+	layer_ordering
+	[
+		keys 5
+			0 1 0.1 0.5 ""
+			1 1 0.1 0.5 ""
+			36 1 0.1 0.5 ""
+			56 1 0.1 0.5 ""
+			68 1 0.1 0.5 ""
+	]
+	skeleton
+	[
+		binding_mode 1
+		bones 1
+			"" -1 -1 1 -1 1 1 -1 1 true 0.1663 1 0 0
+			false -1.221731 1.221731
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					1 1 0.1 0.5 false
+					36 1 0.1 0.5 false
+					56 1 0.1 0.5 false
+					68 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 7
+					0 1 0.1 0.5 0 0
+					1 1 0.1 0.5 0 0
+					13 1 0.1 0.5 -0.019755 0.231862
+					24 1 0.1 0.5 -0.062793 0.109574
+					36 1 0.1 0.5 0.14714 0.259626
+					56 1 0.1 0.5 0 0
+					68 1 0.1 0.5 0.09723 0.215909
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 2.163024
+					1 1 0.1 0.5 2.163024
+					36 1 0.1 0.5 2.25228
+					56 1 0.1 0.5 2.163024
+					68 1 0.1 0.5 2.187306
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					1 1 0.1 0.5 1
+					36 1 0.1 0.5 1
+					56 1 0.1 0.5 1
+					68 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					1 1 0.1 0.5 false
+					36 1 0.1 0.5 false
+					56 1 0.1 0.5 false
+					68 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					1 1 0.1 0.5 0 0
+					36 1 0.1 0.5 0 0
+					56 1 0.1 0.5 0 0
+					68 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					1 1 0.1 0.5 0
+					36 1 0.1 0.5 0
+					56 1 0.1 0.5 0
+					68 1 0.1 0.5 0
+			]
+	]
+
+	### sub-layers
+	layer_type 4
+	{
+		### generic layer values
+		name "Foot"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone 0
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 5
+				0 1 0.1 0.5 0 0 0
+				20 1 0.1 0.5 0 0 0
+				44 1 0.1 0.5 0 0 0
+				50 1 0.1 0.5 0 0 0
+				56 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 5
+				0 1 0.1 0.5 1 1 1
+				20 1 0.1 0.5 1 1 1
+				44 1 0.1 0.5 1 1 1
+				50 1 0.1 0.5 1 1 1
+				56 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				20 1 0.1 0.5 false
+				44 1 0.1 0.5 false
+				50 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				20 1 0.1 0.5 false
+				44 1 0.1 0.5 false
+				50 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 5
+				0 1 0.1 0.5 0 0 0
+				20 1 0.1 0.5 0 0 0
+				44 1 0.1 0.5 0 0 0
+				50 1 0.1 0.5 0 0 0
+				56 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 5
+				0 1 0.1 0.5 true
+				20 1 0.1 0.5 true
+				44 1 0.1 0.5 true
+				50 1 0.1 0.5 true
+				56 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 5
+				0 1 0.1 0.5 1
+				20 1 0.1 0.5 1
+				44 1 0.1 0.5 1
+				50 1 0.1 0.5 1
+				56 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				20 1 0.1 0.5 false
+				44 1 0.1 0.5 false
+				50 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 5
+				0 1 0.1 0.5 5.497787
+				20 1 0.1 0.5 5.497787
+				44 1 0.1 0.5 5.497787
+				50 1 0.1 0.5 5.497787
+				56 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 5
+				0 1 0.1 0.5 0.033333
+				20 1 0.1 0.5 0.033333
+				44 1 0.1 0.5 0.033333
+				50 1 0.1 0.5 0.033333
+				56 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 5
+				0 1 0.1 0.5 0.016667
+				20 1 0.1 0.5 0.016667
+				44 1 0.1 0.5 0.016667
+				50 1 0.1 0.5 0.016667
+				56 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 5
+				0 1 0.1 0.5 0 0 0 0.501961
+				20 1 0.1 0.5 0 0 0 0.501961
+				44 1 0.1 0.5 0 0 0 0.501961
+				50 1 0.1 0.5 0 0 0 0.501961
+				56 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 5
+				0 1 0.1 0.5 64
+				20 1 0.1 0.5 64
+				44 1 0.1 0.5 64
+				50 1 0.1 0.5 64
+				56 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				20 1 0.1 0.5 false
+				44 1 0.1 0.5 false
+				50 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 5
+				0 1 0.1 0.5 5.497787
+				20 1 0.1 0.5 5.497787
+				44 1 0.1 0.5 5.497787
+				50 1 0.1 0.5 5.497787
+				56 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 5
+				0 1 0.1 0.5 0.033333
+				20 1 0.1 0.5 0.033333
+				44 1 0.1 0.5 0.033333
+				50 1 0.1 0.5 0.033333
+				56 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 5
+				0 1 0.1 0.5 0.066667
+				20 1 0.1 0.5 0.066667
+				44 1 0.1 0.5 0.066667
+				50 1 0.1 0.5 0.066667
+				56 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 5
+				0 1 0.1 0.5 0 0 0 0.501961
+				20 1 0.1 0.5 0 0 0 0.501961
+				44 1 0.1 0.5 0 0 0 0.501961
+				50 1 0.1 0.5 0 0 0 0.501961
+				56 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				20 1 0.1 0.5 0
+				44 1 0.1 0.5 0
+				50 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 5
+				0 1 0.1 0.5 64
+				20 1 0.1 0.5 64
+				44 1 0.1 0.5 64
+				50 1 0.1 0.5 64
+				56 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				20 1 0.1 0.5 false
+				44 1 0.1 0.5 false
+				50 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 5
+				0 1 0.1 0.5 2
+				20 1 0.1 0.5 2
+				44 1 0.1 0.5 2
+				50 1 0.1 0.5 2
+				56 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 5
+				0 1 0.1 0.5 1
+				20 1 0.1 0.5 1
+				44 1 0.1 0.5 1
+				50 1 0.1 0.5 1
+				56 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 5
+				0 1 0.1 0.5 0.5
+				20 1 0.1 0.5 0.5
+				44 1 0.1 0.5 0.5
+				50 1 0.1 0.5 0.5
+				56 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 5
+				0 1 0.1 0.5 0.3
+				20 1 0.1 0.5 0.3
+				44 1 0.1 0.5 0.3
+				50 1 0.1 0.5 0.3
+				56 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 5
+				0 1 0.1 0.5 0.016667
+				20 1 0.1 0.5 0.016667
+				44 1 0.1 0.5 0.016667
+				50 1 0.1 0.5 0.016667
+				56 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 5
+				0 1 0.1 0.5 ""
+				20 1 0.1 0.5 ""
+				44 1 0.1 0.5 ""
+				50 1 0.1 0.5 ""
+				56 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 4
+				"" -1 -1 1 -1 1 1 -1 1 true 0.062875 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 7
+						0 1 0.1 0.5 -0.195475 -0.089725
+						11 1 0.1 0.5 -0.178939 -0.092481
+						20 1 0.1 0.5 -0.195475 -0.089725
+						34 1 0.1 0.5 -0.154136 -0.125552
+						44 1 0.1 0.5 -0.154136 -0.125552
+						50 1 0.1 0.5 -0.170672 -0.109017
+						56 1 0.1 0.5 -0.19509 -0.089789
+				]
+				[
+					keys 7
+						0 1 0.1 0.5 3.052897
+						11 1 0.1 0.5 3.276666
+						20 1 0.1 0.5 3.05635
+						34 1 0.1 0.5 3.478212
+						44 1 0.1 0.5 3.478212
+						50 1 0.1 0.5 3.276666
+						56 1 0.1 0.5 3.058095
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 1
+						20 1 0.1 0.5 1
+						44 1 0.1 0.5 1
+						50 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0 0
+						20 1 0.1 0.5 0 0
+						44 1 0.1 0.5 0 0
+						50 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0
+						20 1 0.1 0.5 0
+						44 1 0.1 0.5 0
+						50 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+				"" 3 -1 1 -1 1 1 -1 1 false 0.207165 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 5
+						0 1 0.1 0.5 0.021606 -0.018118
+						20 1 0.1 0.5 0.021606 -0.018118
+						44 1 0.1 0.5 0.021606 -0.018118
+						50 1 0.1 0.5 0.021606 -0.018118
+						56 1 0.1 0.5 0.021606 -0.018118
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 5.312735
+						20 1 0.1 0.5 5.312735
+						44 1 0.1 0.5 5.312735
+						50 1 0.1 0.5 5.312735
+						56 1 0.1 0.5 5.312735
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 1
+						20 1 0.1 0.5 1
+						44 1 0.1 0.5 1
+						50 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0 0
+						20 1 0.1 0.5 0 0
+						44 1 0.1 0.5 0 0
+						50 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0
+						20 1 0.1 0.5 0
+						44 1 0.1 0.5 0
+						50 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+				"" 3 -1 1 -1 1 1 -1 1 false 0.164156 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 5
+						0 1 0.1 0.5 0.006733 0.024793
+						20 1 0.1 0.5 0.006733 0.024793
+						44 1 0.1 0.5 0.006733 0.024793
+						50 1 0.1 0.5 0.006733 0.024793
+						56 1 0.1 0.5 0.006733 0.024793
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 1.487991
+						20 1 0.1 0.5 1.487991
+						44 1 0.1 0.5 1.487991
+						50 1 0.1 0.5 1.487991
+						56 1 0.1 0.5 1.487991
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 1
+						20 1 0.1 0.5 1
+						44 1 0.1 0.5 1
+						50 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0 0
+						20 1 0.1 0.5 0 0
+						44 1 0.1 0.5 0 0
+						50 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0
+						20 1 0.1 0.5 0
+						44 1 0.1 0.5 0
+						50 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+				"" 0 -1 1 -1 1 1 -1 1 false 0.010969 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 5
+						0 1 0.1 0.5 0.070143 0.002142
+						20 1 0.1 0.5 0.070143 0.002142
+						44 1 0.1 0.5 0.070143 0.002142
+						50 1 0.1 0.5 0.070143 0.002142
+						56 1 0.1 0.5 0.070143 0.002142
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0.274199
+						20 1 0.1 0.5 0.274199
+						44 1 0.1 0.5 0.274199
+						50 1 0.1 0.5 0.274199
+						56 1 0.1 0.5 0.274199
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 1
+						20 1 0.1 0.5 1
+						44 1 0.1 0.5 1
+						50 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						20 1 0.1 0.5 false
+						44 1 0.1 0.5 false
+						50 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0 0
+						20 1 0.1 0.5 0 0
+						44 1 0.1 0.5 0 0
+						50 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0
+						20 1 0.1 0.5 0
+						44 1 0.1 0.5 0
+						50 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Foot"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0.073231 0.007042
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.33799 -0.076048 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/ParrotFootFlying.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.278646 0.429688
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Body"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone 0
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 1
+				0 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 2
+				"" 1 -1 1 -1 1 1 -1 1 false 0.369847 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 1
+						0 1 0.1 0.5 0.052177 0.004728
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 1.313776
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				"" -1 -1 1 -1 1 1 -1 1 true 0.049295 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 1
+						0 1 0.1 0.5 -0.045065 -0.145054
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0.542382
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0 0
+				]
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Body"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/ParrotBodyFlying.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.554688 0.635417
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Head"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone 0
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				56 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				56 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				56 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				56 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				56 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				56 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				56 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				56 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				56 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				56 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				56 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				56 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				56 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				56 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				56 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				56 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				56 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				56 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				56 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				56 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				56 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 2
+				"" -1 -1 1 -1 1 1 -1 1 false 0.228237 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 2
+						0 1 0.1 0.5 -0.11548 0.274617
+						56 1 0.1 0.5 -0.11548 0.274617
+				]
+				[
+					keys 7
+						0 1 0.1 0.5 2.250977
+						1 1 0.1 0.5 2.250977
+						9 1 0.1 0.5 2.511319
+						18 1 0.1 0.5 1.832127
+						31 1 0.1 0.5 2.406287
+						47 1 0.1 0.5 2.018677
+						56 1 0.1 0.5 2.250977
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+				"" 0 -1 1 -1 1 1 -1 1 true 0.293134 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 2
+						0 1 0.1 0.5 0.242471 0.017596
+						56 1 0.1 0.5 0.242471 0.017596
+				]
+				[
+					keys 6
+						0 1 0.1 0.5 1.233318
+						9 1 0.1 0.5 1.423832
+						18 1 0.1 0.5 1.073389
+						31 1 0.1 0.5 1.430911
+						47 1 0.1 0.5 1.022314
+						56 1 0.1 0.5 1.24743
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Head"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0.126746 -0.178853
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.23096 0.391505 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 -0.014185
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/ParrotHead.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.75 0.585938
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Wing"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone 0
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				56 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				56 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				56 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				56 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				56 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				56 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				56 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				56 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				56 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				56 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				56 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				56 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				56 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				56 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				56 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				56 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				56 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				56 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				56 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				56 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				56 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				56 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				56 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 2
+				"" -1 -1 1 -1 1 1 -1 1 true 0.521532 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 3
+						0 1 0.1 0.5 -0.104214 0.305599
+						1 1 0.1 0.5 -0.104214 0.305599
+						56 1 0.1 0.5 -0.104214 0.305599
+				]
+				[
+					keys 13
+						0 1 0.1 0.5 5.171378
+						4 1 0.1 0.5 6.145413
+						8 1 0.1 0.5 5.253601
+						13 1 0.1 0.5 6.6918
+						19 1 0.1 0.5 4.705156
+						24 1 0.1 0.5 6.535836
+						28 1 0.1 0.5 4.90923
+						32 1 0.1 0.5 6.353002
+						36 1 0.1 0.5 5.200589
+						41 1 0.1 0.5 6.333765
+						46 1 0.1 0.5 4.960505
+						51 1 0.1 0.5 6.124789
+						56 1 0.1 0.5 5.182245
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+				"" 0 -1 1 -1 1 1 -1 1 false 0.111448 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 2
+						0 1 0.1 0.5 0.545287 0.009932
+						56 1 0.1 0.5 0.545287 0.009932
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0.614338
+						56 1 0.1 0.5 0.614338
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 1
+						56 1 0.1 0.5 1
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 false
+						56 1 0.1 0.5 false
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0 0
+						56 1 0.1 0.5 0 0
+				]
+				[
+					keys 2
+						0 1 0.1 0.5 0
+						56 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Wing"
+			quality_flags 2046
+			animated_layer_effects false
+			origin -0.09858 0.243635
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0.019716 0.059148 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/ParrotFrontWing.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.398438 0.549479
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+}

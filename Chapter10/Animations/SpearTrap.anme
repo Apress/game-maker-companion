@@ -1,0 +1,2589 @@
+application/x-vnd.lm_mohodoc
+version 19
+### Created in Moho version 6.0, � 1999-2009 Smith Micro Software, Inc.
+### Created: Thu Jul 22 11:36:10 2010
+
+### static values
+dimensions 768 768
+frame_range 1 24
+fps 25
+back_color 0 0 0 255
+noise_grain 0
+allow_3d true
+depth_sort false
+distance_sort false
+depth_of_field false 2 1 0.05
+stereo_separation -1
+extra_swf_frame false
+soundtrack ""
+
+### styles
+
+### animated values
+camera_track
+[
+	keys 2
+		0 1 0.1 0.5 0 0 1.7321
+		1 1 0.1 0.5 0 0 1.7321
+]
+camera_zoom
+[
+	keys 2
+		0 1 0.1 0.5 1
+		1 1 0.1 0.5 1
+]
+camera_roll
+[
+	keys 2
+		0 1 0.1 0.5 0
+		1 1 0.1 0.5 0
+]
+camera_pan_tilt
+[
+	keys 2
+		0 1 0.1 0.5 0 0
+		1 1 0.1 0.5 0 0
+]
+
+### layers
+layer_type 1
+{
+	### generic layer values
+	name "Layer 1"
+	quality_flags 2044
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -1
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+	scale
+	[
+		keys 1
+			0 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+
+	### mesh layer values
+	noisy_shapes false
+	noisy_lines false
+	animated_noise false
+	extra_sketchy true
+	noise_amp 0.007813
+	noise_scale 0.0625
+	extra_lines 5
+	gap_filling false
+	exclude_lines_from_mask false
+	fill_texture ""
+	line_texture ""
+	mesh
+	[
+		points 0
+		curves 0
+		shapes 0
+		groups 0
+	]
+}
+layer_type 4
+{
+	### generic layer values
+	name "Trap"
+	quality_flags 2046
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -2
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 2
+			0 1 0.1 0.5 0 0 0
+			24 1 0.1 0.5 0 0 0
+	]
+	scale
+	[
+		keys 1
+			0 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+
+	### bone layer values
+	expanded true
+	group_mask 0
+	depth_sort false
+	distance_sort false
+	layer_ordering
+	[
+		keys 1
+			0 1 0.1 0.5 ""
+	]
+	skeleton
+	[
+		binding_mode 1
+		bones 0
+	]
+
+	### sub-layers
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 7"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 -0.532875 -0.513139 0
+				1 1 0.1 0.5 -0.257084 -1.775969 0
+				9 1 0.1 0.5 -0.257084 -1.775969 0
+				21 0 -1 -1 -0.532875 -0.513139 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				1 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 0.217975
+				1 1 0.1 0.5 0.217975
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				1 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				1 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				1 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				1 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				1 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				1 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				1 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				1 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				1 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				1 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				1 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				1 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				1 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				1 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				1 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				1 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				1 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				1 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				1 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				1 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				1 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				1 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				1 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				1 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				1 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear7.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 0.75 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear7.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.286458 2.294271
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 6"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 -0.319725 -0.501297 0
+				1 1 0.1 0.5 -0.566485 -1.807673 0
+				11 1 0.1 0.5 -0.566485 -1.807673 0
+				23 0 -1 -1 -0.319725 -0.501297 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				11 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 -0.189332
+				11 1 0.1 0.5 -0.189332
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				11 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				11 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				11 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				11 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				11 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				11 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				11 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				11 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				11 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				11 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				11 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				11 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				11 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				11 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				11 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				11 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				11 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				11 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				11 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				11 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				11 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				11 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				11 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				11 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				11 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear6.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.003947 0.003947 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 0.75 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear6.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.122396 2.354167
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 5"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 0.236833 -0.643397 0
+				1 1 0.1 0.5 -0.859071 -1.855423 0
+				8 1 0.1 0.5 -0.859071 -1.855423 0
+				20 0 -1 -1 0.236833 -0.643397 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				8 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 -0.735449
+				8 1 0.1 0.5 -0.735449
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				8 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				8 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				8 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				8 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				8 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				8 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				8 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				8 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				8 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				8 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				8 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				8 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				8 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				8 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				8 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				8 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				8 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				8 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				8 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				8 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				8 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				8 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				8 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				8 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				8 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear5.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 1 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear5.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.359375 2.330729
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 4"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 0.323672 -0.615766 0
+				1 1 0.1 0.5 -0.068241 -2.067295 0
+				6 1 0.1 0.5 -0.068241 -2.067295 0
+				18 0 -1 -1 0.323672 -0.615766 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				6 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 -0.267344
+				6 1 0.1 0.5 -0.267344
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				6 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				6 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				6 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				6 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				6 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				6 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				6 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				6 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				6 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				6 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				6 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				6 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				6 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				6 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				6 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				6 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				6 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				6 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				6 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				6 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				6 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				6 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				6 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				6 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				6 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear4.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 1 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear4.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.15625 2.302083
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 3"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 -0.067103 -0.276305 0
+				1 1 0.1 0.5 -0.666268 -1.724289 0
+				3 1 0.1 0.5 -0.666268 -1.724289 0
+				15 0 -1 -1 -0.067103 -0.276305 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				3 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 -0.40754
+				3 1 0.1 0.5 -0.40754
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				3 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				3 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				3 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				3 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				3 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				3 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				3 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				3 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				3 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				3 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				3 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				3 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				3 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				3 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				3 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				3 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				3 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				3 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				3 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				3 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				3 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				3 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				3 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				3 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				3 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear3.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 0.75 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear3.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.122396 2.302083
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 2"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 -0.039472 -0.185519 0
+				1 1 0.1 0.5 -0.072759 -1.799938 0
+				12 1 0.1 0.5 -0.072759 -1.799938 0
+				24 0 -1 -1 -0.039472 -0.185519 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				12 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 -0.05183
+				12 1 0.1 0.5 -0.05183
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				12 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				12 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				12 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				12 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				12 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				12 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				12 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				12 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				12 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				12 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				12 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				12 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				12 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				12 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				12 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				12 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				12 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				12 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				12 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				12 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				12 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				12 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				12 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				12 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				12 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear2.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 0.75 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear2.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.114583 2.291667
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Spear 1"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -2
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 4
+				0 1 0.1 0.5 -0.347355 -0.189467 0
+				1 1 0.1 0.5 -0.065028 -1.810234 0
+				9 1 0.1 0.5 -0.065028 -1.810234 0
+				21 0 -1 -1 -0.347355 -0.189467 0
+		]
+		scale
+		[
+			keys 2
+				0 1 0.1 0.5 1 1 1
+				9 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 2
+				0 1 0.1 0.5 0.183885
+				9 1 0.1 0.5 0.183885
+		]
+		flip_h
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0
+				9 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 2
+				0 1 0.1 0.5 true
+				9 1 0.1 0.5 true
+		]
+		blur
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		alpha
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				9 1 0.1 0.5 1
+		]
+		ambient_occlusion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+
+		### layer shadow
+		layer_shadow_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+		]
+		layer_shadow_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				9 1 0.1 0.5 5.497787
+		]
+		layer_shadow_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				9 1 0.1 0.5 0.033333
+		]
+		layer_shadow_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				9 1 0.1 0.5 0.016667
+		]
+		layer_shadow_expansion
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		layer_shadow_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				9 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shadow_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		layer_shadow_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				9 1 0.1 0.5 64
+		]
+
+		### layer shading
+		layer_shading_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+		]
+		layer_shading_angle
+		[
+			keys 2
+				0 1 0.1 0.5 5.497787
+				9 1 0.1 0.5 5.497787
+		]
+		layer_shading_offset
+		[
+			keys 2
+				0 1 0.1 0.5 0.033333
+				9 1 0.1 0.5 0.033333
+		]
+		layer_shading_blur
+		[
+			keys 2
+				0 1 0.1 0.5 0.066667
+				9 1 0.1 0.5 0.066667
+		]
+		layer_shading_contraction
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		layer_shading_color
+		[
+			keys 2
+				0 1 0.1 0.5 0 0 0 0.501961
+				9 1 0.1 0.5 0 0 0 0.501961
+		]
+		layer_shading_noise_amp
+		[
+			keys 2
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+		]
+		layer_shading_noise_scale
+		[
+			keys 2
+				0 1 0.1 0.5 64
+				9 1 0.1 0.5 64
+		]
+
+		### motion blur
+		motion_blur_on
+		[
+			keys 2
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+		]
+		motion_blur_frames
+		[
+			keys 2
+				0 1 0.1 0.5 2
+				9 1 0.1 0.5 2
+		]
+		motion_blur_skip
+		[
+			keys 2
+				0 1 0.1 0.5 1
+				9 1 0.1 0.5 1
+		]
+		motion_blur_alpha_start
+		[
+			keys 2
+				0 1 0.1 0.5 0.5
+				9 1 0.1 0.5 0.5
+		]
+		motion_blur_alpha_end
+		[
+			keys 2
+				0 1 0.1 0.5 0.3
+				9 1 0.1 0.5 0.3
+		]
+		motion_blur_radius
+		[
+			keys 2
+				0 1 0.1 0.5 0.016667
+				9 1 0.1 0.5 0.016667
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		layer_ordering
+		[
+			keys 2
+				0 1 0.1 0.5 ""
+				9 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 0
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Spear1.png"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.75 0.75 1
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/Spear1.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.117188 2.304688
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+}

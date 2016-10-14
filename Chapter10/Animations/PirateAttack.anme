@@ -1,0 +1,3797 @@
+application/x-vnd.lm_mohodoc
+version 19
+### Created in Moho version 6.0, � 1999-2009 Smith Micro Software, Inc.
+### Created: Wed Jul 21 23:02:31 2010
+
+### static values
+dimensions 768 768
+frame_range 9 50
+fps 25
+back_color 0 0 0 255
+noise_grain 0
+allow_3d true
+depth_sort false
+distance_sort false
+depth_of_field false 2 1 0.05
+stereo_separation -1
+extra_swf_frame false
+soundtrack ""
+
+### styles
+
+### animated values
+camera_track
+[
+	keys 1
+		0 1 0.1 0.5 0 0 1.7321
+]
+camera_zoom
+[
+	keys 1
+		0 1 0.1 0.5 1
+]
+camera_roll
+[
+	keys 1
+		0 1 0.1 0.5 0
+]
+camera_pan_tilt
+[
+	keys 1
+		0 1 0.1 0.5 0 0
+]
+
+### layers
+layer_type 1
+{
+	### generic layer values
+	name "Layer 1"
+	quality_flags 2044
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -1
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+	scale
+	[
+		keys 1
+			0 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 1
+			0 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 1
+			0 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 1
+			0 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+
+	### mesh layer values
+	noisy_shapes false
+	noisy_lines false
+	animated_noise false
+	extra_sketchy true
+	noise_amp 0.011236
+	noise_scale 0.089888
+	extra_lines 5
+	gap_filling false
+	exclude_lines_from_mask false
+	fill_texture ""
+	line_texture ""
+	mesh
+	[
+		points 0
+		curves 0
+		shapes 0
+		groups 0
+	]
+}
+layer_type 4
+{
+	### generic layer values
+	name "Skeleton"
+	quality_flags 2046
+	animated_layer_effects false
+	origin 0 0
+	parent_bone -2
+	visible true
+	render_only false
+	edit_only false
+	scale_compensation true
+	rotate_to_follow false
+	face_camera false
+	masking 0
+	blend_mode 0
+	camera_immune false
+	dof_immune false
+	timing_offset 0
+
+	### transforms
+	translation
+	[
+		keys 5
+			0 1 0.1 0.5 0 0.072053 0
+			9 1 0.1 0.5 0 0.072053 0
+			25 1 0.1 0.5 0 0.072053 0
+			43 1 0.1 0.5 0 0.072053 0
+			51 1 0.1 0.5 0 0.072053 0
+	]
+	scale
+	[
+		keys 5
+			0 1 0.1 0.5 1 1 1
+			9 1 0.1 0.5 1 1 1
+			25 1 0.1 0.5 1 1 1
+			43 1 0.1 0.5 1 1 1
+			51 1 0.1 0.5 1 1 1
+	]
+	rotation_x
+	[
+		keys 5
+			0 1 0.1 0.5 0
+			9 1 0.1 0.5 0
+			25 1 0.1 0.5 0
+			43 1 0.1 0.5 0
+			51 1 0.1 0.5 0
+	]
+	rotation_y
+	[
+		keys 5
+			0 1 0.1 0.5 0
+			9 1 0.1 0.5 0
+			25 1 0.1 0.5 0
+			43 1 0.1 0.5 0
+			51 1 0.1 0.5 0
+	]
+	rotation_z
+	[
+		keys 5
+			0 1 0.1 0.5 0
+			9 1 0.1 0.5 0
+			25 1 0.1 0.5 0
+			43 1 0.1 0.5 0
+			51 1 0.1 0.5 0
+	]
+	flip_h
+	[
+		keys 5
+			0 1 0.1 0.5 false
+			9 1 0.1 0.5 false
+			25 1 0.1 0.5 false
+			43 1 0.1 0.5 false
+			51 1 0.1 0.5 false
+	]
+	flip_v
+	[
+		keys 5
+			0 1 0.1 0.5 false
+			9 1 0.1 0.5 false
+			25 1 0.1 0.5 false
+			43 1 0.1 0.5 false
+			51 1 0.1 0.5 false
+	]
+	shear
+	[
+		keys 5
+			0 1 0.1 0.5 0 0 0
+			9 1 0.1 0.5 0 0 0
+			25 1 0.1 0.5 0 0 0
+			43 1 0.1 0.5 0 0 0
+			51 1 0.1 0.5 0 0 0
+	]
+
+	### layer effects
+	visibility
+	[
+		keys 5
+			0 1 0.1 0.5 true
+			9 1 0.1 0.5 true
+			25 1 0.1 0.5 true
+			43 1 0.1 0.5 true
+			51 1 0.1 0.5 true
+	]
+
+	### bone layer values
+	expanded true
+	group_mask 0
+	depth_sort false
+	distance_sort false
+	animated_layer_order true
+	layer_ordering
+	[
+		keys 8
+			0 1 0.1 0.5 ""
+			9 1 0.1 0.5 ""
+			25 1 0.1 0.5 ""
+			30 1 0.1 0.5 "0|1|2|3|4|5|"
+			31 1 0.1 0.5 "0|1|2|3|4|5|"
+			36 1 0.1 0.5 "0|1|2|3|4|5|"
+			43 1 0.1 0.5 ""
+			51 1 0.1 0.5 ""
+	]
+	skeleton
+	[
+		binding_mode 1
+		bones 6
+			"" -1 -1 1 -1 1 1 -1 1 false 0.055687 0.670947 0 0
+			false -1.22173 1.22173
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 11
+					0 1 0.1 0.5 -0.038046 -0.125183
+					1 1 0.1 0.5 -0.038046 -0.171108
+					6 1 0.1 0.5 -0.059542 -0.2098
+					9 1 0.1 0.5 -0.038046 -0.171108
+					14 1 0.1 0.5 -0.073563 -0.169658
+					19 1 0.1 0.5 -0.01728 -0.217184
+					25 1 0.1 0.5 -0.01728 -0.217184
+					30 1 0.1 0.5 -0.049318 -0.151868
+					36 1 0.1 0.5 -0.062901 -0.134592
+					43 1 0.1 0.5 -0.059542 -0.2098
+					51 1 0.1 0.5 -0.038046 -0.171108
+			]
+			[
+				keys 9
+					0 1 0.1 0.5 1.324076
+					1 1 0.1 0.5 1.698041
+					9 1 0.1 0.5 1.698041
+					14 1 0.1 0.5 1.865506
+					19 1 0.1 0.5 1.545509
+					25 1 0.1 0.5 1.521401
+					30 1 0.1 0.5 1.72161
+					43 1 0.1 0.5 1.494232
+					51 1 0.1 0.5 1.698041
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					9 1 0.1 0.5 1
+					25 1 0.1 0.5 1
+					43 1 0.1 0.5 1
+					51 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					9 1 0.1 0.5 0 0
+					25 1 0.1 0.5 0 0
+					43 1 0.1 0.5 0 0
+					51 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					25 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			"" 0 -1 1 -1 1 1 -1 1 false 0.128425 0.799358 0 0
+			false -1.221731 1.221731
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 5
+					0 1 0.1 0.5 0.055662 0.000097
+					9 1 0.1 0.5 0.055662 0.000097
+					25 1 0.1 0.5 0.055662 0.000097
+					43 1 0.1 0.5 0.055662 0.000097
+					51 1 0.1 0.5 0.055662 0.000097
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0.073653
+					9 1 0.1 0.5 0.073653
+					25 1 0.1 0.5 0.073653
+					43 1 0.1 0.5 0.073653
+					51 1 0.1 0.5 0.073653
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					9 1 0.1 0.5 1
+					25 1 0.1 0.5 1
+					43 1 0.1 0.5 1
+					51 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					9 1 0.1 0.5 0 0
+					25 1 0.1 0.5 0 0
+					43 1 0.1 0.5 0 0
+					51 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					25 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			"" 1 -1 1 -1 1 1 -1 1 true 0.139435 0.839486 0 0
+			false -1.221731 1.221731
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 5
+					0 1 0.1 0.5 0.128326 0.000007
+					9 1 0.1 0.5 0.128326 0.000007
+					25 1 0.1 0.5 0.128326 0.000007
+					43 1 0.1 0.5 0.128326 0.000007
+					51 1 0.1 0.5 0.128326 0.000007
+			]
+			[
+				keys 9
+					0 1 0.1 0.5 0.269915
+					1 1 0.1 0.5 -0.308098
+					6 1 0.1 0.5 -0.42774
+					9 1 0.1 0.5 -0.308098
+					14 1 0.1 0.5 -0.278309
+					25 1 0.1 0.5 -0.616369
+					36 1 0.1 0.5 -0.058903
+					43 1 0.1 0.5 -0.423106
+					51 1 0.1 0.5 -0.308098
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					9 1 0.1 0.5 1
+					25 1 0.1 0.5 1
+					43 1 0.1 0.5 1
+					51 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					9 1 0.1 0.5 0 0
+					25 1 0.1 0.5 0 0
+					43 1 0.1 0.5 0 0
+					51 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					25 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			"" 2 -1 1 -1 1 1 -1 1 false 0.094689 0.686998 0 0
+			false -1.221731 1.221731
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 5
+					0 1 0.1 0.5 0.142975 -0.000519
+					9 1 0.1 0.5 0.142975 -0.000519
+					25 1 0.1 0.5 0.142975 -0.000519
+					43 1 0.1 0.5 0.142975 -0.000519
+					51 1 0.1 0.5 0.142975 -0.000519
+			]
+			[
+				keys 7
+					0 1 0.1 0.5 0.335211
+					1 1 0.1 0.5 0.100193
+					6 1 0.1 0.5 -0.06997
+					9 1 0.1 0.5 0.100193
+					25 1 0.1 0.5 0.100193
+					43 1 0.1 0.5 0.100193
+					51 1 0.1 0.5 0.100193
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					9 1 0.1 0.5 1
+					25 1 0.1 0.5 1
+					43 1 0.1 0.5 1
+					51 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					9 1 0.1 0.5 0 0
+					25 1 0.1 0.5 0 0
+					43 1 0.1 0.5 0 0
+					51 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					25 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			"" 3 -1 1 -1 1 1 -1 1 false 0.041303 0.614767 0 0
+			false -1.221731 1.221731
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 5
+					0 1 0.1 0.5 0.094594 0.000033
+					9 1 0.1 0.5 0.094594 0.000033
+					25 1 0.1 0.5 0.094594 0.000033
+					43 1 0.1 0.5 0.094594 0.000033
+					51 1 0.1 0.5 0.094594 0.000033
+			]
+			[
+				keys 6
+					0 1 0.1 0.5 5.574405
+					1 1 0.1 0.5 5.996704
+					9 1 0.1 0.5 5.996704
+					25 1 0.1 0.5 5.996704
+					43 1 0.1 0.5 5.996704
+					51 1 0.1 0.5 5.996704
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					9 1 0.1 0.5 1
+					25 1 0.1 0.5 1
+					43 1 0.1 0.5 1
+					51 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					9 1 0.1 0.5 0 0
+					25 1 0.1 0.5 0 0
+					43 1 0.1 0.5 0 0
+					51 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					25 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			"" 3 -1 1 -1 1 1 -1 1 false 0.016505 0.382023 0 0
+			false -1.221731 1.221731
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			2 2 1
+			[
+				keys 5
+					0 1 0.1 0.5 0.097708 0.008298
+					9 1 0.1 0.5 0.097708 0.008298
+					25 1 0.1 0.5 0.097708 0.008298
+					43 1 0.1 0.5 0.097708 0.008298
+					51 1 0.1 0.5 0.097708 0.008298
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1.199649
+					9 1 0.1 0.5 1.199649
+					25 1 0.1 0.5 1.199649
+					43 1 0.1 0.5 1.199649
+					51 1 0.1 0.5 1.199649
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 1
+					9 1 0.1 0.5 1
+					25 1 0.1 0.5 1
+					43 1 0.1 0.5 1
+					51 1 0.1 0.5 1
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					25 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0 0
+					9 1 0.1 0.5 0 0
+					25 1 0.1 0.5 0 0
+					43 1 0.1 0.5 0 0
+					51 1 0.1 0.5 0 0
+			]
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					25 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+	]
+
+	### sub-layers
+	layer_type 4
+	{
+		### generic layer values
+		name "Back Arm"
+		quality_flags 2046
+		animated_layer_effects false
+		origin -0.078194 0.274011
+		parent_bone 5
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 3
+				0 1 0.1 0.5 -0.0257 -0.1012 0
+				9 1 0.1 0.5 -0.0257 -0.1012 0
+				51 1 0.1 0.5 -0.0257 -0.1012 0
+		]
+		scale
+		[
+			keys 3
+				0 1 0.1 0.5 1 1 1
+				9 1 0.1 0.5 1 1 1
+				51 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 3
+				0 1 0.1 0.5 0 0 0
+				9 1 0.1 0.5 0 0 0
+				51 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 3
+				0 1 0.1 0.5 true
+				9 1 0.1 0.5 true
+				51 1 0.1 0.5 true
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 3
+				0 1 0.1 0.5 ""
+				9 1 0.1 0.5 ""
+				51 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 1
+				"" -1 -1 1 -1 1 1 -1 1 true 0.241366 0.446228 0 0
+				false -1.221731 1.221731
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 6
+						0 1 0.1 0.5 -0.079143 0.273096
+						1 1 0.1 0.5 -0.079143 0.273096
+						6 1 0.1 0.5 -0.079143 0.273096
+						9 1 0.1 0.5 -0.079143 0.273096
+						14 1 0.1 0.5 -0.079143 0.273096
+						51 1 0.1 0.5 -0.079143 0.273096
+				]
+				[
+					keys 11
+						0 1 0.1 0.5 4.454537
+						1 1 0.1 0.5 5.722746
+						6 1 0.1 0.5 6.055082
+						9 1 0.1 0.5 5.722746
+						14 1 0.1 0.5 4.374864
+						22 1 0.1 0.5 6.137075
+						27 1 0.1 0.5 5.639867
+						32 1 0.1 0.5 4.114435
+						39 1 0.1 0.5 5.987988
+						46 1 0.1 0.5 4.685968
+						51 1 0.1 0.5 5.722746
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 1
+						9 1 0.1 0.5 1
+						51 1 0.1 0.5 1
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0 0
+						9 1 0.1 0.5 0 0
+						51 1 0.1 0.5 0 0
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0
+						9 1 0.1 0.5 0
+						51 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Back Arm"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0.007489 0.172209
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.085138 0.101094 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.65 0.65 0.65
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 -0.243739
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/PirateArm.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.145833 0.523438
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+		layer_type 4
+		{
+			### generic layer values
+			name "Back Hand"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -2
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 3
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 3
+					0 1 0.1 0.5 1 1 1
+					9 1 0.1 0.5 1 1 1
+					51 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 3
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 3
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 3
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 3
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 3
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 3
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+			visibility
+			[
+				keys 3
+					0 1 0.1 0.5 true
+					9 1 0.1 0.5 true
+					51 1 0.1 0.5 true
+			]
+
+			### bone layer values
+			expanded true
+			group_mask 0
+			depth_sort false
+			distance_sort false
+			animated_layer_order true
+			layer_ordering
+			[
+				keys 3
+					0 1 0.1 0.5 "0|1|2|"
+					9 1 0.1 0.5 "0|1|2|"
+					51 1 0.1 0.5 "0|1|2|"
+			]
+			skeleton
+			[
+				binding_mode 1
+				bones 1
+					"" -1 -1 1 -1 1 1 -1 1 true 0.199793 0.470305 0 0
+					false -1.221731 1.221731
+					[
+						keys 3
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					2 2 1
+					[
+						keys 3
+							0 1 0.1 0.5 -0.143638 0.038481
+							9 1 0.1 0.5 -0.143638 0.038481
+							51 1 0.1 0.5 -0.143638 0.038481
+					]
+					[
+						keys 11
+							0 1 0.1 0.5 4.634332
+							1 1 0.1 0.5 4.824229
+							6 1 0.1 0.5 5.240885
+							9 1 0.1 0.5 4.824229
+							22 1 0.1 0.5 6.335513
+							27 1 0.1 0.5 4.630487
+							34 1 0.1 0.5 5.426074
+							39 1 0.1 0.5 6.004848
+							42 1 0.1 0.5 4.832409
+							46 1 0.1 0.5 4.945431
+							51 1 0.1 0.5 4.824229
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 1
+							9 1 0.1 0.5 1
+							51 1 0.1 0.5 1
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 0 0
+							9 1 0.1 0.5 0 0
+							51 1 0.1 0.5 0 0
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 0
+							9 1 0.1 0.5 0
+							51 1 0.1 0.5 0
+					]
+			]
+
+			### sub-layers
+			layer_type 2
+			{
+				### generic layer values
+				name "Weapon Sword"
+				quality_flags 2046
+				animated_layer_effects false
+				origin -0.531087 0.067831
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 0.376959 -0.408089 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0.134551
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/Scimitar.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 1.460938 0.377604
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Weapon Pistol"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0 0
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.167823 -0.51617 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 -1.703832
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/LongPistol.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.867188 0.408854
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Back Hook"
+				quality_flags 2046
+				animated_layer_effects false
+				origin -0.022642 0.345043
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.120939 -0.306131 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.5 0.5 0.5
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/PirateHandHook.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.296875 0.794271
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Back Hand"
+				quality_flags 2046
+				animated_layer_effects false
+				origin -0.0336 0.29021
+				parent_bone -3
+				visible true
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.114214 -0.29171 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 -0.188876
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/PirateHandGauntlet.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.341146 0.783854
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Back Leg"
+		quality_flags 2046
+		animated_layer_effects false
+		origin -0.04399 -0.197768
+		parent_bone 1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 3
+				0 1 0.1 0.5 0 -0.0593 0
+				9 1 0.1 0.5 0 -0.0593 0
+				51 1 0.1 0.5 0 -0.0593 0
+		]
+		scale
+		[
+			keys 3
+				0 1 0.1 0.5 1 1 1
+				9 1 0.1 0.5 1 1 1
+				51 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 3
+				0 1 0.1 0.5 0 0 0
+				9 1 0.1 0.5 0 0 0
+				51 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 3
+				0 1 0.1 0.5 true
+				9 1 0.1 0.5 true
+				51 1 0.1 0.5 true
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 5
+				0 1 0.1 0.5 ""
+				9 1 0.1 0.5 ""
+				30 1 0.1 0.5 "0|1|"
+				43 1 0.1 0.5 "0|1|"
+				51 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 1
+				"" -1 -1 1 -1 1 1 -1 1 true 0.282959 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 3
+						0 1 0.1 0.5 -0.04518 -0.194926
+						9 1 0.1 0.5 -0.04518 -0.194926
+						51 1 0.1 0.5 -0.04518 -0.194926
+				]
+				[
+					keys 11
+						0 1 0.1 0.5 4.661506
+						1 1 0.1 0.5 4.798153
+						6 1 0.1 0.5 4.856393
+						9 1 0.1 0.5 4.798153
+						14 1 0.1 0.5 4.820592
+						19 1 0.1 0.5 5.062197
+						25 1 0.1 0.5 5.071137
+						30 1 0.1 0.5 4.658462
+						36 1 0.1 0.5 5.161595
+						43 1 0.1 0.5 5.233071
+						51 1 0.1 0.5 4.798153
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 1
+						9 1 0.1 0.5 1
+						51 1 0.1 0.5 1
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0 0
+						9 1 0.1 0.5 0 0
+						51 1 0.1 0.5 0 0
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0
+						9 1 0.1 0.5 0
+						51 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 4
+		{
+			### generic layer values
+			name "Back Foot"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -2
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 3
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 3
+					0 1 0.1 0.5 1 1 1
+					9 1 0.1 0.5 1 1 1
+					51 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 3
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 3
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 3
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 3
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 3
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 3
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+			visibility
+			[
+				keys 3
+					0 1 0.1 0.5 true
+					9 1 0.1 0.5 true
+					51 1 0.1 0.5 true
+			]
+
+			### bone layer values
+			expanded true
+			group_mask 0
+			depth_sort false
+			distance_sort false
+			animated_layer_order true
+			layer_ordering
+			[
+				keys 3
+					0 1 0.1 0.5 ""
+					9 1 0.1 0.5 ""
+					51 1 0.1 0.5 ""
+			]
+			skeleton
+			[
+				binding_mode 1
+				bones 2
+					"" -1 -1 1 -1 1 1 -1 1 false 0.336942 1 0 0
+					false -1.221731 1.221731
+					[
+						keys 3
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					2 2 1
+					[
+						keys 3
+							0 1 0.1 0.5 -0.064275 -0.51012
+							9 1 0.1 0.5 -0.064275 -0.51012
+							51 1 0.1 0.5 -0.064275 -0.51012
+					]
+					[
+						keys 11
+							0 1 0.1 0.5 4.637782
+							1 1 0.1 0.5 4.157151
+							6 1 0.1 0.5 3.885841
+							9 1 0.1 0.5 4.157151
+							14 1 0.1 0.5 3.754981
+							19 1 0.1 0.5 3.781795
+							25 1 0.1 0.5 3.785935
+							30 1 0.1 0.5 4.217181
+							36 1 0.1 0.5 3.718963
+							43 1 0.1 0.5 3.848794
+							51 1 0.1 0.5 4.157151
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 1
+							9 1 0.1 0.5 1
+							51 1 0.1 0.5 1
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 0 0
+							9 1 0.1 0.5 0 0
+							51 1 0.1 0.5 0 0
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 0
+							9 1 0.1 0.5 0
+							51 1 0.1 0.5 0
+					]
+					"" 0 -1 1 -1 1 1 -1 1 true 0.324433 0.390048 0 0
+					false -1.221731 1.221731
+					[
+						keys 3
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					2 2 1
+					[
+						keys 3
+							0 1 0.1 0.5 0.417786 -0.058955
+							9 1 0.1 0.5 0.417786 -0.058955
+							51 1 0.1 0.5 0.417786 -0.058955
+					]
+					[
+						keys 11
+							0 1 0.1 0.5 1.528419
+							1 1 0.1 0.5 1.530951
+							6 1 0.1 0.5 1.630907
+							9 1 0.1 0.5 1.530951
+							14 1 0.1 0.5 1.451573
+							19 1 0.1 0.5 1.841468
+							25 1 0.1 0.5 1.867183
+							30 1 0.1 0.5 1.572858
+							36 1 0.1 0.5 1.301828
+							43 1 0.1 0.5 1.616549
+							51 1 0.1 0.5 1.530951
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 1
+							9 1 0.1 0.5 1
+							51 1 0.1 0.5 1
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 0 0
+							9 1 0.1 0.5 0 0
+							51 1 0.1 0.5 0 0
+					]
+					[
+						keys 3
+							0 1 0.1 0.5 0
+							9 1 0.1 0.5 0
+							51 1 0.1 0.5 0
+					]
+			]
+
+			### sub-layers
+			layer_type 2
+			{
+				### generic layer values
+				name "Back Foot"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0 0
+				parent_bone -3
+				visible true
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.038589 -0.716948 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/PirateBootStrap.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.549479 0.838542
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+		}
+		layer_type 2
+		{
+			### generic layer values
+			name "Back Leg"
+			quality_flags 2046
+			animated_layer_effects false
+			origin -0.006494 0.212939
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.038281 -0.408216 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.65 0.65 0.65
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/PirateLegStrap.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.286458 0.604167
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Front Leg"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone 1
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 3
+				0 1 0.1 0.5 0 -0.059299 0
+				9 1 0.1 0.5 0 -0.059299 0
+				51 1 0.1 0.5 0 -0.059299 0
+		]
+		scale
+		[
+			keys 3
+				0 1 0.1 0.5 1 1 1
+				9 1 0.1 0.5 1 1 1
+				51 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 3
+				0 1 0.1 0.5 0 0 0
+				9 1 0.1 0.5 0 0 0
+				51 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 3
+				0 1 0.1 0.5 true
+				9 1 0.1 0.5 true
+				51 1 0.1 0.5 true
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 4
+				0 1 0.1 0.5 ""
+				9 1 0.1 0.5 ""
+				43 1 0.1 0.5 "0|1|"
+				51 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 1
+				"" -1 -1 1 -1 1 1 -1 1 true 0.282959 1 0 0
+				false -1.221731 1.221731
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 3
+						0 1 0.1 0.5 -0.04518 -0.194926
+						9 1 0.1 0.5 -0.04518 -0.194926
+						51 1 0.1 0.5 -0.04518 -0.194926
+				]
+				[
+					keys 11
+						0 1 0.1 0.5 4.661506
+						1 1 0.1 0.5 4.286777
+						6 1 0.1 0.5 4.286777
+						9 1 0.1 0.5 4.286777
+						14 1 0.1 0.5 4.119105
+						19 1 0.1 0.5 4.478868
+						25 1 0.1 0.5 4.704871
+						30 1 0.1 0.5 4.215646
+						36 1 0.1 0.5 4.344657
+						43 1 0.1 0.5 4.57621
+						51 1 0.1 0.5 4.286777
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 1
+						9 1 0.1 0.5 1
+						51 1 0.1 0.5 1
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0 0
+						9 1 0.1 0.5 0 0
+						51 1 0.1 0.5 0 0
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0
+						9 1 0.1 0.5 0
+						51 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 4
+		{
+			### generic layer values
+			name "Front Foot"
+			quality_flags 2046
+			animated_layer_effects false
+			origin -0.061228 -0.509934
+			parent_bone -2
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 5
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					30 1 0.1 0.5 0 0 0
+					43 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 5
+					0 1 0.1 0.5 1 1 1
+					9 1 0.1 0.5 1 1 1
+					30 1 0.1 0.5 1 1 1
+					43 1 0.1 0.5 1 1 1
+					51 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					30 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					30 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 5
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					30 1 0.1 0.5 0
+					43 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					30 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 5
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					30 1 0.1 0.5 false
+					43 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 5
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					30 1 0.1 0.5 0 0 0
+					43 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+			visibility
+			[
+				keys 5
+					0 1 0.1 0.5 true
+					9 1 0.1 0.5 true
+					30 1 0.1 0.5 true
+					43 1 0.1 0.5 true
+					51 1 0.1 0.5 true
+			]
+
+			### bone layer values
+			expanded true
+			group_mask 0
+			depth_sort false
+			distance_sort false
+			animated_layer_order true
+			layer_ordering
+			[
+				keys 5
+					0 1 0.1 0.5 ""
+					9 1 0.1 0.5 ""
+					30 1 0.1 0.5 ""
+					43 1 0.1 0.5 ""
+					51 1 0.1 0.5 ""
+			]
+			skeleton
+			[
+				binding_mode 1
+				bones 2
+					"" -1 -1 1 -1 1 1 -1 1 false 0.336942 1 0 0
+					false -1.221731 1.221731
+					[
+						keys 5
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							30 1 0.1 0.5 false
+							43 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					2 2 1
+					[
+						keys 5
+							0 1 0.1 0.5 -0.064275 -0.51012
+							9 1 0.1 0.5 -0.064275 -0.51012
+							30 1 0.1 0.5 -0.064275 -0.51012
+							43 1 0.1 0.5 -0.064275 -0.51012
+							51 1 0.1 0.5 -0.064275 -0.51012
+					]
+					[
+						keys 11
+							0 1 0.1 0.5 4.637782
+							1 1 0.1 0.5 4.220803
+							6 1 0.1 0.5 4.025781
+							9 1 0.1 0.5 4.220803
+							14 1 0.1 0.5 4.323094
+							19 1 0.1 0.5 4.089298
+							25 1 0.1 0.5 3.625562
+							30 1 0.1 0.5 4.362846
+							36 1 0.1 0.5 4.365042
+							43 1 0.1 0.5 4.076755
+							51 1 0.1 0.5 4.220803
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 1
+							9 1 0.1 0.5 1
+							30 1 0.1 0.5 1
+							43 1 0.1 0.5 1
+							51 1 0.1 0.5 1
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							30 1 0.1 0.5 false
+							43 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 0 0
+							9 1 0.1 0.5 0 0
+							30 1 0.1 0.5 0 0
+							43 1 0.1 0.5 0 0
+							51 1 0.1 0.5 0 0
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 0
+							9 1 0.1 0.5 0
+							30 1 0.1 0.5 0
+							43 1 0.1 0.5 0
+							51 1 0.1 0.5 0
+					]
+					"" 0 -1 1 -1 1 1 -1 1 true 0.324433 0.390048 0 0
+					false -1.221731 1.221731
+					[
+						keys 5
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							30 1 0.1 0.5 false
+							43 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					2 2 1
+					[
+						keys 5
+							0 1 0.1 0.5 0.417786 -0.058955
+							9 1 0.1 0.5 0.417786 -0.058955
+							30 1 0.1 0.5 0.417786 -0.058955
+							43 1 0.1 0.5 0.417786 -0.058955
+							51 1 0.1 0.5 0.417786 -0.058955
+					]
+					[
+						keys 11
+							0 1 0.1 0.5 1.528419
+							1 1 0.1 0.5 1.84012
+							6 1 0.1 0.5 1.973058
+							9 1 0.1 0.5 1.84012
+							14 1 0.1 0.5 1.764902
+							19 1 0.1 0.5 2.091007
+							25 1 0.1 0.5 1.910215
+							30 1 0.1 0.5 1.72973
+							36 1 0.1 0.5 1.682353
+							43 1 0.1 0.5 2.14601
+							51 1 0.1 0.5 1.84012
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 1
+							9 1 0.1 0.5 1
+							30 1 0.1 0.5 1
+							43 1 0.1 0.5 1
+							51 1 0.1 0.5 1
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							30 1 0.1 0.5 false
+							43 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 0 0
+							9 1 0.1 0.5 0 0
+							30 1 0.1 0.5 0 0
+							43 1 0.1 0.5 0 0
+							51 1 0.1 0.5 0 0
+					]
+					[
+						keys 5
+							0 1 0.1 0.5 0
+							9 1 0.1 0.5 0
+							30 1 0.1 0.5 0
+							43 1 0.1 0.5 0
+							51 1 0.1 0.5 0
+					]
+			]
+
+			### sub-layers
+			layer_type 2
+			{
+				### generic layer values
+				name "Front Peg"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0.000993 0.330386
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.066671 -0.838561 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/PirateFootPeg.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.270833 0.841146
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Front Foot"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0 0
+				parent_bone -3
+				visible true
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.038589 -0.716948 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/PirateBootStrap.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.549479 0.838542
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+		}
+		layer_type 2
+		{
+			### generic layer values
+			name "Front Leg"
+			quality_flags 2046
+			animated_layer_effects false
+			origin -0.002984 0.222467
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.041245 -0.416948 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.65 0.65 0.65
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/PirateLegStrap.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.286458 0.604167
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Head"
+		quality_flags 2046
+		animated_layer_effects false
+		origin -0.054248 0.301488
+		parent_bone 4
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 3
+				0 1 0.1 0.5 0 0 0
+				9 1 0.1 0.5 0 0 0
+				51 1 0.1 0.5 0 0 0
+		]
+		scale
+		[
+			keys 3
+				0 1 0.1 0.5 1 1 1
+				9 1 0.1 0.5 1 1 1
+				51 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 3
+				0 1 0.1 0.5 0
+				9 1 0.1 0.5 0
+				51 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 3
+				0 1 0.1 0.5 false
+				9 1 0.1 0.5 false
+				51 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 3
+				0 1 0.1 0.5 0 0 0
+				9 1 0.1 0.5 0 0 0
+				51 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 3
+				0 1 0.1 0.5 true
+				9 1 0.1 0.5 true
+				51 1 0.1 0.5 true
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 3
+				0 1 0.1 0.5 ""
+				9 1 0.1 0.5 ""
+				51 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 1
+				"" -1 -1 1 -1 1 1 -1 1 true 0.070057 0.542536 0 0
+				false -1.221731 1.221731
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 3
+						0 1 0.1 0.5 -0.054248 0.301488
+						9 1 0.1 0.5 -0.054248 0.301488
+						51 1 0.1 0.5 -0.054248 0.301488
+				]
+				[
+					keys 7
+						0 1 0.1 0.5 1.013417
+						9 1 0.1 0.5 1.013417
+						15 1 0.1 0.5 0.816015
+						21 1 0.1 0.5 1.288575
+						31 1 0.1 0.5 0.884376
+						43 1 0.1 0.5 1.131283
+						51 1 0.1 0.5 1.013417
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 1
+						9 1 0.1 0.5 1
+						51 1 0.1 0.5 1
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						9 1 0.1 0.5 false
+						51 1 0.1 0.5 false
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0 0
+						9 1 0.1 0.5 0 0
+						51 1 0.1 0.5 0 0
+				]
+				[
+					keys 3
+						0 1 0.1 0.5 0
+						9 1 0.1 0.5 0
+						51 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Head"
+			quality_flags 2046
+			animated_layer_effects false
+			origin -0.135074 -0.292104
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 0.081286 0.590993 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.65 0.65 0.65
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/PirateHeadFloppyHat.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.8125 0.75
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+	}
+	layer_type 2
+	{
+		### generic layer values
+		name "Torso"
+		quality_flags 2046
+		animated_layer_effects false
+		origin 0 0
+		parent_bone -3
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 1
+				0 1 0.1 0.5 -0.021805 0.012114 0
+		]
+		scale
+		[
+			keys 1
+				0 1 0.1 0.5 0.65 0.65 0.65
+		]
+		rotation_x
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 1
+				0 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 1
+				0 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+
+		### image layer values
+		image "Body Parts/PirateBodyThin.png"
+		interpreted_fps -1
+		avi_alpha false
+		movie_looping false
+		shape 0.476563 1.130208
+		### audio layer values
+		audio_file ""
+		spatial_positioning false
+		audio_level
+		[
+			keys 1
+				0 1 0.1 0.5 1
+		]
+		audio_jump
+		[
+			keys 1
+				0 1 0.1 0.5 0
+		]
+	}
+	layer_type 4
+	{
+		### generic layer values
+		name "Front Arm"
+		quality_flags 2046
+		animated_layer_effects false
+		origin -0.078194 0.274011
+		parent_bone 5
+		visible true
+		render_only false
+		edit_only false
+		scale_compensation true
+		rotate_to_follow false
+		face_camera false
+		masking 0
+		blend_mode 0
+		camera_immune false
+		dof_immune false
+		timing_offset 0
+
+		### transforms
+		translation
+		[
+			keys 5
+				0 1 0.1 0.5 -0.025664 -0.101238 0
+				9 1 -1 -1 -0.025664 -0.101238 0
+				16 1 0.1 0.5 -0.025664 -0.101238 0
+				51 1 -1 -1 -0.025664 -0.101238 0
+				58 1 0.1 0.5 -0.025664 -0.101238 0
+		]
+		scale
+		[
+			keys 5
+				0 1 0.1 0.5 1 1 1
+				9 1 -1 -1 1 1 1
+				16 1 0.1 0.5 1 1 1
+				51 1 -1 -1 1 1 1
+				58 1 0.1 0.5 1 1 1
+		]
+		rotation_x
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				9 1 -1 -1 0
+				16 1 0.1 0.5 0
+				51 1 -1 -1 0
+				58 1 0.1 0.5 0
+		]
+		rotation_y
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				9 1 -1 -1 0
+				16 1 0.1 0.5 0
+				51 1 -1 -1 0
+				58 1 0.1 0.5 0
+		]
+		rotation_z
+		[
+			keys 5
+				0 1 0.1 0.5 0
+				9 1 -1 -1 0
+				16 1 0.1 0.5 0
+				51 1 -1 -1 0
+				58 1 0.1 0.5 0
+		]
+		flip_h
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				9 1 -1 -1 false
+				16 1 0.1 0.5 false
+				51 1 -1 -1 false
+				58 1 0.1 0.5 false
+		]
+		flip_v
+		[
+			keys 5
+				0 1 0.1 0.5 false
+				9 1 -1 -1 false
+				16 1 0.1 0.5 false
+				51 1 -1 -1 false
+				58 1 0.1 0.5 false
+		]
+		shear
+		[
+			keys 5
+				0 1 0.1 0.5 0 0 0
+				9 1 -1 -1 0 0 0
+				16 1 0.1 0.5 0 0 0
+				51 1 -1 -1 0 0 0
+				58 1 0.1 0.5 0 0 0
+		]
+
+		### layer effects
+		visibility
+		[
+			keys 5
+				0 1 0.1 0.5 true
+				9 1 -1 -1 true
+				16 1 0.1 0.5 true
+				51 1 -1 -1 true
+				58 1 0.1 0.5 true
+		]
+
+		### bone layer values
+		expanded true
+		group_mask 0
+		depth_sort false
+		distance_sort false
+		animated_layer_order true
+		layer_ordering
+		[
+			keys 5
+				0 1 0.1 0.5 ""
+				9 1 -1 -1 ""
+				16 1 0.1 0.5 ""
+				51 1 -1 -1 ""
+				58 1 0.1 0.5 ""
+		]
+		skeleton
+		[
+			binding_mode 1
+			bones 1
+				"" -1 -1 1 -1 1 1 -1 1 true 0.241366 0.446228 0 0
+				false -1.221731 1.221731
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						9 1 -1 -1 false
+						16 1 0.1 0.5 false
+						51 1 -1 -1 false
+						58 1 0.1 0.5 false
+				]
+				2 2 1
+				[
+					keys 9
+						0 1 0.1 0.5 -0.079143 0.273096
+						1 1 0.1 0.5 -0.079143 0.273096
+						9 1 -1 -1 -0.079143 0.273096
+						16 1 0.1 0.5 -0.079143 0.273096
+						22 1 0.1 0.5 -0.079143 0.273096
+						30 1 0.1 0.5 -0.079143 0.273096
+						36 1 0.1 0.5 -0.079143 0.273096
+						51 1 -1 -1 -0.079143 0.273096
+						58 1 0.1 0.5 -0.079143 0.273096
+				]
+				[
+					keys 11
+						0 1 0.1 0.5 4.454537
+						1 1 0.1 0.5 4.702792
+						6 1 0.1 0.5 4.545033
+						9 1 -1 -1 4.434347
+						16 1 0.1 0.5 6.531171
+						22 1 0.1 0.5 4.716331
+						30 1 0.1 0.5 6.709387
+						36 1 0.1 0.5 7.346103
+						42 1 0.1 0.5 5.673569
+						51 1 -1 -1 4.434347
+						58 1 0.1 0.5 6.531171
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 1
+						9 1 -1 -1 1
+						16 1 0.1 0.5 1
+						51 1 -1 -1 1
+						58 1 0.1 0.5 1
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 false
+						9 1 -1 -1 false
+						16 1 0.1 0.5 false
+						51 1 -1 -1 false
+						58 1 0.1 0.5 false
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0 0
+						9 1 -1 -1 0 0
+						16 1 0.1 0.5 0 0
+						51 1 -1 -1 0 0
+						58 1 0.1 0.5 0 0
+				]
+				[
+					keys 5
+						0 1 0.1 0.5 0
+						9 1 -1 -1 0
+						16 1 0.1 0.5 0
+						51 1 -1 -1 0
+						58 1 0.1 0.5 0
+				]
+		]
+
+		### sub-layers
+		layer_type 2
+		{
+			### generic layer values
+			name "Front Arm"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0.007489 0.172209
+			parent_bone -3
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 1
+					0 1 0.1 0.5 -0.085138 0.101094 0
+			]
+			scale
+			[
+				keys 1
+					0 1 0.1 0.5 0.65 0.65 0.65
+			]
+			rotation_x
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 1
+					0 1 0.1 0.5 -0.243739
+			]
+			flip_h
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 1
+					0 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 1
+					0 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+
+			### image layer values
+			image "Body Parts/PirateArm.png"
+			interpreted_fps -1
+			avi_alpha false
+			movie_looping false
+			shape 0.145833 0.523438
+			### audio layer values
+			audio_file ""
+			spatial_positioning false
+			audio_level
+			[
+				keys 1
+					0 1 0.1 0.5 1
+			]
+			audio_jump
+			[
+				keys 1
+					0 1 0.1 0.5 0
+			]
+		}
+		layer_type 4
+		{
+			### generic layer values
+			name "Front Hand"
+			quality_flags 2046
+			animated_layer_effects false
+			origin 0 0
+			parent_bone -2
+			visible true
+			render_only false
+			edit_only false
+			scale_compensation true
+			rotate_to_follow false
+			face_camera false
+			masking 0
+			blend_mode 0
+			camera_immune false
+			dof_immune false
+			timing_offset 0
+
+			### transforms
+			translation
+			[
+				keys 4
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					36 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+			scale
+			[
+				keys 4
+					0 1 0.1 0.5 1 1 1
+					9 1 0.1 0.5 1 1 1
+					36 1 0.1 0.5 1 1 1
+					51 1 0.1 0.5 1 1 1
+			]
+			rotation_x
+			[
+				keys 4
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					36 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_y
+			[
+				keys 4
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					36 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			rotation_z
+			[
+				keys 4
+					0 1 0.1 0.5 0
+					9 1 0.1 0.5 0
+					36 1 0.1 0.5 0
+					51 1 0.1 0.5 0
+			]
+			flip_h
+			[
+				keys 4
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					36 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			flip_v
+			[
+				keys 4
+					0 1 0.1 0.5 false
+					9 1 0.1 0.5 false
+					36 1 0.1 0.5 false
+					51 1 0.1 0.5 false
+			]
+			shear
+			[
+				keys 4
+					0 1 0.1 0.5 0 0 0
+					9 1 0.1 0.5 0 0 0
+					36 1 0.1 0.5 0 0 0
+					51 1 0.1 0.5 0 0 0
+			]
+
+			### layer effects
+			visibility
+			[
+				keys 4
+					0 1 0.1 0.5 true
+					9 1 0.1 0.5 true
+					36 1 0.1 0.5 true
+					51 1 0.1 0.5 true
+			]
+
+			### bone layer values
+			expanded true
+			group_mask 0
+			depth_sort false
+			distance_sort false
+			animated_layer_order true
+			layer_ordering
+			[
+				keys 4
+					0 1 0.1 0.5 ""
+					9 1 0.1 0.5 ""
+					36 1 0.1 0.5 ""
+					51 1 0.1 0.5 ""
+			]
+			skeleton
+			[
+				binding_mode 1
+				bones 1
+					"" -1 -1 1 -1 1 1 -1 1 true 0.199793 0.470305 0 0
+					false -1.221731 1.221731
+					[
+						keys 4
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							36 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					2 2 1
+					[
+						keys 4
+							0 1 0.1 0.5 -0.143638 0.038481
+							9 1 0.1 0.5 -0.143638 0.038481
+							36 1 0.1 0.5 -0.143638 0.038481
+							51 1 0.1 0.5 -0.143638 0.038481
+					]
+					[
+						keys 11
+							0 1 0.1 0.5 4.634332
+							1 1 0.1 0.5 5.294892
+							6 1 0.1 0.5 5.128
+							9 1 0.1 0.5 5.294892
+							15 1 0.1 0.5 6.697237
+							19 1 0.1 0.5 4.53623
+							24 1 0.1 0.5 4.653647
+							30 1 0.1 0.5 5.72425
+							36 1 0.1 0.5 6.345027
+							42 1 0.1 0.5 4.527386
+							51 1 0.1 0.5 5.294892
+					]
+					[
+						keys 4
+							0 1 0.1 0.5 1
+							9 1 0.1 0.5 1
+							36 1 0.1 0.5 1
+							51 1 0.1 0.5 1
+					]
+					[
+						keys 4
+							0 1 0.1 0.5 false
+							9 1 0.1 0.5 false
+							36 1 0.1 0.5 false
+							51 1 0.1 0.5 false
+					]
+					[
+						keys 4
+							0 1 0.1 0.5 0 0
+							9 1 0.1 0.5 0 0
+							36 1 0.1 0.5 0 0
+							51 1 0.1 0.5 0 0
+					]
+					[
+						keys 4
+							0 1 0.1 0.5 0
+							9 1 0.1 0.5 0
+							36 1 0.1 0.5 0
+							51 1 0.1 0.5 0
+					]
+			]
+
+			### sub-layers
+			layer_type 2
+			{
+				### generic layer values
+				name "Weapon Sword"
+				quality_flags 2046
+				animated_layer_effects false
+				origin -0.531087 0.067831
+				parent_bone -3
+				visible true
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 0.376959 -0.408089 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0.134551
+				]
+				flip_h
+				[
+					keys 3
+						0 1 0.1 0.5 false
+						26 1 0.1 0.5 true
+						32 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/Scimitar.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 1.460938 0.377604
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Weapon Pistol"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0 0
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.167823 -0.51617 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 -1.703832
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/LongPistol.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.867188 0.408854
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Weapon Staff"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0 0
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 0.005541 -0.332466 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.45 0.45 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/HookedStaff.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 2.65625 0.380208
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Front Hook"
+				quality_flags 2046
+				animated_layer_effects false
+				origin 0 0
+				parent_bone -3
+				visible false
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 0 -0.410041 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.5 0.5 0.5
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/FishingHook.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 1.606771 0.570313
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+			layer_type 2
+			{
+				### generic layer values
+				name "Front Hand"
+				quality_flags 2046
+				animated_layer_effects false
+				origin -0.0336 0.29021
+				parent_bone -3
+				visible true
+				render_only false
+				edit_only false
+				scale_compensation true
+				rotate_to_follow false
+				face_camera false
+				masking 0
+				blend_mode 0
+				camera_immune false
+				dof_immune false
+				timing_offset 0
+
+				### transforms
+				translation
+				[
+					keys 1
+						0 1 0.1 0.5 -0.114214 -0.29171 0
+				]
+				scale
+				[
+					keys 1
+						0 1 0.1 0.5 0.65 0.65 0.65
+				]
+				rotation_x
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_y
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+				rotation_z
+				[
+					keys 1
+						0 1 0.1 0.5 -0.188876
+				]
+				flip_h
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				flip_v
+				[
+					keys 1
+						0 1 0.1 0.5 false
+				]
+				shear
+				[
+					keys 1
+						0 1 0.1 0.5 0 0 0
+				]
+
+				### layer effects
+
+				### image layer values
+				image "Body Parts/PirateHandGauntlet.png"
+				interpreted_fps -1
+				avi_alpha false
+				movie_looping false
+				shape 0.341146 0.783854
+				### audio layer values
+				audio_file ""
+				spatial_positioning false
+				audio_level
+				[
+					keys 1
+						0 1 0.1 0.5 1
+				]
+				audio_jump
+				[
+					keys 1
+						0 1 0.1 0.5 0
+				]
+			}
+		}
+	}
+}
